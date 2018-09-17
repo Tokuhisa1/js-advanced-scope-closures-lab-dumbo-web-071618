@@ -1,7 +1,7 @@
 const expect = chai.expect;
 
 describe('closures', function() {
-  describe('produceDrivingRange', function(){
+  describe('produceDrivingRange()', function(){
     it('returns a function', function(){
       expect(typeof produceDrivingRange()).to.equal('function')
     })
@@ -19,7 +19,7 @@ describe('closures', function() {
     })
   })
 
-  describe('produceTipCalculator', function(){
+  describe('produceTipCalculator()', function(){
     it('returns a function', function(){
       expect(typeof produceTipCalculator()).to.equal('function')
     })
@@ -31,7 +31,7 @@ describe('closures', function() {
     })
   })
 
-  describe('createDriver', function(){
+  describe('createDriver()', function(){
     const Driver = createDriver()
 
     it('returns a class that allows us to create a driver with a name attribute', function(){
